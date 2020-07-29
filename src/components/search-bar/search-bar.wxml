@@ -1,0 +1,17 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: search-bar.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view wx:if="{{show}}" class="component-search-bar">
+  <view class="input-line">
+    <image class="icon" src="../../images/Search_white.png" mode="aspectFit"></image>
+    <input class="input" placeholder="{{placeholder}}" placeholder-class="input-placeholder" confirm-type="search"
+      value="{{keyword}}" bindinput="keywordInput" bind:confirm="tapConfirm"></input>
+  </view>
+  <view class="submit-btn" catch:tap="searchSubmit">搜　索</view>
+</view>

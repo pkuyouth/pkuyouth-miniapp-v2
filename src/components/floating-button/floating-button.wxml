@@ -1,0 +1,50 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: floating-button.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="component-floating-button" animation="{{animationTotal}}">
+  <view wx:if="{{num>=6}}" class="button-option" style="display:{{display && !onInit ? 'inline-block' : 'none'}};"
+    animation="{{animation_6}}" catch:tap="tapBtn_6">
+    <image class="icon" src="{{icon[5]}}" mode="aspectFit"></image>
+    <text class="text">{{text[5]}}</text>
+  </view>
+  <view wx:if="{{num>=5}}" class="button-option" style="display:{{display && !onInit ? 'inline-block' : 'none'}};"
+    animation="{{animation_5}}" catch:tap="tapBtn_5">
+    <image class="icon" src="{{icon[4]}}" mode="aspectFit"></image>
+    <text class="text">{{text[4]}}</text>
+  </view>
+  <view wx:if="{{num>=4}}" class="button-option" style="display:{{display && !onInit ? 'inline-block' : 'none'}};"
+    animation="{{animation_4}}" catch:tap="tapBtn_4">
+    <image class="icon" src="{{icon[3]}}" mode="aspectFit"></image>
+    <text class="text">{{text[3]}}</text>
+  </view>
+  <view wx:if="{{num>=3}}" class="button-option" style="display:{{display && !onInit ? 'inline-block' : 'none'}};"
+    animation="{{animation_3}}" catch:tap="tapBtn_3">
+    <image class="icon" src="{{icon[2]}}" mode="aspectFit"></image>
+    <text class="text">{{text[2]}}</text>
+  </view>
+  <view wx:if="{{num>=2}}" class="button-option" style="display:{{display && !onInit ? 'inline-block' : 'none'}};"
+    animation="{{animation_2}}" catch:tap="tapBtn_2">
+    <image class="icon" src="{{icon[1]}}" mode="aspectFit"></image>
+    <text class="text">{{text[1]}}</text>
+  </view>
+  <view wx:if="{{num>=1}}" class="button-option" style="display:{{display && !onInit ? 'inline-block' : 'none'}};"
+    animation="{{animation_1}}" catch:tap="tapBtn_1">
+    <image class="icon" src="{{icon[0]}}" mode="aspectFit"></image>
+    <text class="text">{{text[0]}}</text>
+  </view>
+  <view class="button-control" catch:tap="changeStatus">
+    <image class="icon menu" style="display:{{unfolded ? 'none' : 'inline-block'}};" src="/images/Menu.png"
+      mode="aspectFit"></image>
+    <image class="icon close" style="display:{{unfolded ? 'inline-block' : 'none'}};" src="/images/Close.png"
+      mode="aspectFit"></image>
+  </view>
+</view>
+<mask-layer show="{{unfolded}}"></mask-layer>
+<search-bar show="{{unfolded && hasSearchBar}}" range="{{searchRange}}" not-found="{{searchNotFound}}"
+  placeholder="{{searchBarPlaceholder}}"></search-bar>

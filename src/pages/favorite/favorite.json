@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "news-li": "../../components/news-li/news-li",
+    "floating-button": "../../components/floating-button/floating-button",
+    "alert-bar": "../../components/alert-bar/alert-bar"
+  },
+  "navigationBarTitleText": "我的收藏"
+}

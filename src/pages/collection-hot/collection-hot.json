@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "news-li": "../../components/news-li/news-li",
+    "floating-button": "../../components/floating-button/floating-button"
+  }
+}

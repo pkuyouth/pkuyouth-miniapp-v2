@@ -1,0 +1,17 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: contribute.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-contribute">
+  <text>投稿请联系《北大青年》公邮： </text>
+  <text class="email">pkuyouth@163.com</text>
+  <text>标题： “投稿” + 姓名 + 院系 + 学号</text>
+  <text>正文： 姓名 + 联系方式（微信号和手机号）</text>
+  <text>附件： 文章 word 版 + PDF 版</text>
+  <text class="welcome">我们欢迎您的来稿 ^_^</text>
+</view>

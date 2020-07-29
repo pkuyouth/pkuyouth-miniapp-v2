@@ -1,0 +1,42 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: news-li-bg.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="component-news-li-bg">
+  <image class="cover" src="{{cover_url_bg}}" mode="widthFix" lazy-load="true" bind:tap="tapNavigate"></image>
+  <view class="info">
+    <view class="header">
+      <text class="title">{{title}}</text>
+    </view>
+    <view class="detail">
+      <view class="left-box">
+        <view class="read-num">
+          <image class="icon" src="../../images/Read_num_grey.png" mode="widthFix"></image>
+          <text class="num">{{read_num}}</text>
+        </view>
+        <view class="like-num">
+          <image class="icon" src="../../images/Thumbs_up_grey.png" mode="widthFix"></image>
+          <text class="num">{{like_num}}</text>
+        </view>
+      </view>
+      <view class="right-box">
+        <text class="time">{{time}}</text>
+        <!-- <view class="recommend" wx:if="{{!hidden}}">
+          <text class="label">找相似</text>
+          <image class="btn" src="../../images/Similarity_match_grey.png" mode="widthFix" catch:tap="tapRecommend">
+          </image>
+        </view> -->
+        <view class="star" wx:if="{{!hidden}}">
+          <text class="label">喜欢</text>
+          <image class="btn" src="../../images/Add_to_favorites_{{star ? 'red' : 'grey'}}.png" mode="widthFix"
+            catch:tap="tapStar"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

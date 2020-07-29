@@ -1,0 +1,32 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: favorite.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-favorite" bind:touchstart="handleTouchStart" bind:touchend="handleTouchEnd">
+  <block wx:if="{{!initDone}}">
+    <image class="loading" src="../../images/Loading.gif" mode="aspectFit"></image>
+  </block>
+  <block wx:elif="{{!articlesList.length}}">
+    <view class="no-collection">
+      <image src="../../images/No_collection.png" mode="aspectFit"></image>
+      <text>快去丰富你的收藏吧～</text>
+    </view>
+  </block>
+  <block wx:else>
+    <news-li wx:for="{{articlesList}}" wx:key="aid" article="{{item}}"></news-li>
+    <floating-button num="{{5}}"
+      icon="{{['/images/Feedback.png','/images/Star_red.png','/images/Time_red.png','/images/Load_all.png','/images/Scroll_to_top_red.png']}}"
+      text="{{['意见反馈','收藏顺序','时间顺序','加载全部','回到顶端']}}" tap-change="{{[true,true,true,true,true]}}"
+      has-search-bar="{{true}}" search-range="{{'favorite'}}" search-bar-placeholder="{{'翻翻我的收藏~'}}"
+      search-not-found="{{'翻了个遍啥都没找到 ...'}}" move-action="{{moveAction}}" bind:tap-btn-one="tapBtn_1"
+      bind:tap-btn-two="tapBtn_2" bind:tap-btn-three="tapBtn_3" bind:tap-btn-four="tapBtn_4"
+      bind:tap-btn-five="tapBtn_5">
+    </floating-button>
+    <alert-bar show="{{entirelyGet}}" text="{{'您的收藏只有这么多啦~'}}"></alert-bar>
+  </block>
+</view>

@@ -1,0 +1,48 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: about.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.page-about {
+}
+.page-about > view {
+  position: fixed;
+  width: 750rpx;
+}
+.page-about text {
+  display: block;
+  color: #888888;
+  text-align: center;
+  line-height: 1.6em;
+  font-size: 28rpx;
+}
+.page-about .info {
+  top: 80rpx;
+}
+.page-about .acknowledgement {
+  bottom: 230rpx;
+}
+.page-about .footer {
+  bottom: 80rpx;
+}
+.page-about .info image.brand {
+  display: block;
+  width: 250rpx;
+  height: 250rpx;
+  margin-left: 250rpx;
+}
+.page-about .info text.name {
+  margin-top: 50rpx;
+  color: #353535;
+  font-size: 36rpx;
+}
+.page-about .info text.version {
+  margin-top: 20rpx;
+}
+
+.page-about .footer text {
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "news-li": "../../components/news-li/news-li",
+    "floating-button": "../../components/floating-button/floating-button"
+  },
+  "navigationBarTitleText": "相似推荐"
+}

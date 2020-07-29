@@ -1,0 +1,97 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: news-li-bg.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-news-li-bg {
+  display: block;
+  margin: 60rpx 40rpx;
+  border: 1rpx solid #cccccc;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 2rpx 10rpx rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.component-news-li-bg .cover {
+  display: block;
+  width: 670rpx;
+}
+.component-news-li-bg .info .header {
+  display: block;
+  padding-left: 5rpx;
+  margin: 35rpx 25rpx 25rpx 25rpx;
+}
+.component-news-li-bg .info .header .title {
+  font-weight: bold;
+  font-size: 38rpx;
+  color: #353535;
+  line-height: 54rpx;
+}
+.component-news-li-bg .info .detail {
+  display: inline-block;
+  font-size: 28rpx;
+  color: #353535;
+  padding-top: 5rpx;
+  padding-left: 10rpx;
+  margin: 0rpx 25rpx 30rpx 25rpx;
+  line-height: 48rpx;
+}
+
+.component-news-li-bg .info .detail .left-box {
+  display: inline-block;
+  width: 200rpx;
+  vertical-align: bottom;
+}
+.component-news-li-bg .info .detail .right-box {
+  display: inline-block;
+  text-align: right;
+  width: 405rpx;
+  vertical-align: bottom;
+}
+
+.component-news-li-bg .info .detail .left-box image.icon {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+.component-news-li-bg .info .detail .left-box text.num {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20rpx;
+  letter-spacing: 3rpx;
+}
+.component-news-li-bg .info .detail .left-box .like-num .num {
+  /* 修饰 */
+  padding-top: 8rpx;
+}
+
+.component-news-li-bg .info .detail .right-box .time {
+  display: block;
+  margin-right: 8rpx;
+  margin-bottom: 6rpx;
+}
+.component-news-li-bg .info .detail .right-box view {
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+}
+.component-news-li-bg .info .detail .right-box view text.label {
+  display: inline-block;
+  margin-left: 25rpx;
+  vertical-align: middle;
+}
+.component-news-li-bg .info .detail .right-box view image.btn {
+  display: inline-block;
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 10rpx;
+  vertical-align: middle;
+}
+.component-news-li-bg .info .detail .right-box view.recommend image.btn {
+  margin-left: 15rpx;
+}

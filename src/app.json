@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/column-list/column-list",
+    "pages/user/user",
+    "pages/web-frame/web-frame",
+    "pages/feedback/feedback",
+    "pages/about/about",
+    "pages/favorite/favorite",
+    "pages/search-keyword-result/search-keyword-result",
+    "pages/recommend-result/recommend-result",
+    "pages/contribute/contribute",
+    "pages/column-news/column-news",
+    "pages/collection-random/collection-random",
+    "pages/collection-hot/collection-hot",
+    "pages/blank/blank",
+    "pages/setting/setting",
+    "pages/retrieve/retrieve",
+    "pages/search-time-result/search-time-result",
+    "pages/search-reporter-result/search-reporter-result",
+    "pages/reporter-news/reporter-news"
+  ],
+  "tabBar": {
+    "position": "bottom",
+    "color": "#7d7d7d",
+    "selectedColor": "#993a3a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/Homepage_grey.png",
+        "selectedIconPath": "images/Homepage_red.png"
+      },
+      {
+        "pagePath": "pages/column-list/column-list",
+        "text": "看栏目",
+        "iconPath": "images/Column_grey.png",
+        "selectedIconPath": "images/Column_red.png"
+      },
+      {
+        "pagePath": "pages/retrieve/retrieve",
+        "text": "检索",
+        "iconPath": "images/Search_grey.png",
+        "selectedIconPath": "images/Search_red.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的北青",
+        "iconPath": "images/User_grey.png",
+        "selectedIconPath": "images/User_red.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#993a3a",
+    "navigationBarTitleText": "北大青年",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

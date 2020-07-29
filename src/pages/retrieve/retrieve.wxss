@@ -1,0 +1,84 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: retrieve.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.page-retrieve {
+  padding: 20rpx 0rpx;
+}
+.page-retrieve .section {
+  display: block;
+  margin: 80rpx 40rpx;
+  color: #353535;
+}
+.page-retrieve .section text.header {
+  display: block;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 40rpx;
+}
+.page-retrieve .section .btn {
+  display: inline-block;
+  min-width: 110rpx;
+  padding: 0rpx 30rpx 0rpx 20rpx;
+  height: 60rpx;
+  border: 1rpx solid #993a3a;
+  border-radius: 15rpx;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+.page-retrieve .section .btn:last-child {
+  margin-right: 0rpx;
+}
+.page-retrieve .section .btn image.icon {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 60rpx;
+  margin: 10rpx 15rpx 10rpx 0rpx;
+  vertical-align: top;
+}
+.page-retrieve .section .btn text.label {
+  display: inline-block;
+  font-size: 28rpx;
+  color: #993a3a;
+  line-height: 60rpx;
+  vertical-align: top;
+}
+.page-retrieve .section input {
+  display: inline-block;
+  width: 430rpx;
+  height: 60rpx;
+  border-radius: 12rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  text-align: left;
+  padding-left: 20rpx;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+.page-retrieve .section input.onblur {
+  border: 1rpx solid #aaaaaa;
+  transition-duration: 0.25s;
+}
+.page-retrieve .section input.onfocus {
+  border: 1rpx solid #993a3a;
+  box-shadow: 0rpx 0rpx 6rpx #993a3a;
+  transition-duration: 0.25s;
+}
+
+.page-retrieve .section.date picker {
+  display: block;
+  font-size: 32rpx;
+  margin-bottom: 40rpx;
+}
+.page-retrieve .section.date picker text.date-num {
+  font-weight: bold;
+  font-size: 34rpx;
+  padding: 0rpx 10rpx;
+  text-decoration: underline;
+}

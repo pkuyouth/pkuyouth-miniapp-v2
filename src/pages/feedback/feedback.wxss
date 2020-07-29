@@ -1,0 +1,43 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: feedback.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.page-feedback {
+  padding: 0rpx 40rpx;
+  color: #353535;
+}
+.page-feedback text.header {
+  display: block;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin: 0rpx 0rpx 30rpx 20rpx;
+}
+.page-feedback text.desc {
+  display: block;
+  margin: 0rpx 20rpx;
+  font-size: 28rpx;
+  line-height: 1.6em;
+}
+.page-feedback button {
+  display: block;
+  margin: 50rpx 0rpx 0rpx 460rpx;
+  width: 180rpx;
+  height: 60rpx;
+  border-radius: 12rpx;
+  border: 1rpx solid #993a3a;
+  color: #993a3a;
+  font-weight: bold;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+  background-color: white;
+}
+.page-feedback > view {
+  display: block;
+  margin-top: 60rpx;
+}

@@ -1,0 +1,49 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: reporter-li.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-reporter-li {
+  display: block;
+  margin: 30rpx 0rpx 30rpx 40rpx;
+  color: #353535;
+  font-size: 32rpx;
+}
+.component-reporter-li .avatar {
+  display: inline-block;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  vertical-align: middle;
+}
+.component-reporter-li .name {
+  display: inline-block;
+  vertical-align: middle;
+  width: 460rpx;
+  margin-left: 40rpx;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.component-reporter-li .news-count {
+  display: inline-block;
+  vertical-align: middle;
+}
+.component-reporter-li .news-count .icon {
+  display: inline-block;
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 15rpx;
+  vertical-align: middle;
+}
+.component-reporter-li .news-count .num {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #888888;
+  letter-spacing: 3rpx;
+  vertical-align: middle;
+}

@@ -1,0 +1,27 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: news-li.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="component-news-li">
+  <block wx:if="{{auto_change_card}}">
+    <block wx:if="{{networkType !== 'wifi'}}">
+      <news-li-sm article="{{article}}"></news-li-sm>
+    </block>
+    <block wx:else>
+      <news-li-bg article="{{article}}"></news-li-bg>
+    </block>
+  </block>
+  <block wx:else>
+    <block wx:if="{{use_small_card}}">
+      <news-li-sm article="{{article}}"></news-li-sm>
+    </block>
+    <block wx:else>
+      <news-li-bg article="{{article}}"></news-li-bg>
+    </block>
+  </block>
+</view>

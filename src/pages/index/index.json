@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "news-slide-item": "../../components/news-slide-item/news-slide-item"
+  },
+  "navigationBarTitleText": "首页精选"
+}

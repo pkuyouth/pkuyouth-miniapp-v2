@@ -1,0 +1,59 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: search-bar.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-search-bar {
+  position: fixed;
+  width: 610rpx;
+  left: 70rpx;
+  top: 70rpx;
+  text-align: center;
+  font-size: 24rpx;
+  z-index: 30;
+}
+.component-search-bar .input-line {
+  display: block;
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: rgba(255, 255, 255, 0.4);
+}
+.component-search-bar .input-line .icon {
+  display: inline-block;
+  height: 42rpx;
+  width: 65rpx;
+  vertical-align: top;
+  margin: 10rpx 10rpx 0rpx 5rpx;
+}
+.component-search-bar .input-line .input {
+  display: inline-block;
+  width: 520rpx;
+  background: none;
+  border: none;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 27rpx;
+  text-align: left;
+  color: white;
+}
+.component-search-bar .submit-btn {
+  display: inline-block;
+  margin-top: 60rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  width: 220rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid white;
+  box-shadow: 0rpx 0rpx 10rpx rgba(225, 225, 225, 0.5);
+  font-size: 27rpx;
+  font-weight: bold;
+  color: white;
+}
+.component-search-bar .input-line .input-placeholder {
+  color: white;
+}

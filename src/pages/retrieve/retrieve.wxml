@@ -1,0 +1,47 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: retrieve.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-retrieve">
+  <view class="section keyword">
+    <text class="header">按关键词检索</text>
+    <input class="{{keywordInputFocus ? 'onfocus' : 'onblur'}}" placeholder="搜索标题｜内容"
+      placeholder-class="input-placeholder" confirm-type="search" value="{{name}}" bindinput="bindKeywordInputChange"
+      bind:confirm="tapKeywordInputConfirm" bind:focus="bindKeywordInputFoucs" bind:blur="bindKeywordInputBlur"></input>
+    <view class="btn" bind:tap="submitKeywordSearch">
+      <image class="icon" src="../../images/Search_red.png" mode="aspectFit"></image>
+      <text class="label">搜索</text>
+    </view>
+  </view>
+  <view class="section date">
+    <text class="header">按日期检索</text>
+    <picker mode="date" value="{{date}}" start="{{dateRange.start}}" end="{{dateRange.end}}"
+      bind:change="bindDateChange">
+      <view>当前选择： <text class="date-num">{{dateArray[0]}}</text>年<text class="date-num">{{dateArray[1]}}</text>月<text
+          class="date-num">{{dateArray[2]}}</text>日</view>
+    </picker>
+    <view class="btn" catch:tap="submitTimeSearch" data-method="day">
+      <image class="icon" src="../../images/Search_red.png" mode="aspectFit"></image>
+      <text class="label">当日文章</text>
+    </view>
+    <view class="btn" catch:tap="submitTimeSearch" data-method="month">
+      <image class="icon" src="../../images/Search_red.png" mode="aspectFit"></image>
+      <text class="label">当月文章</text>
+    </view>
+  </view>
+  <view class="section reporter">
+    <text class="header">找记者</text>
+    <input class="{{rptInputFocus ? 'onfocus' : 'onblur'}}" placeholder="输入记者的名字" placeholder-class="input-placeholder"
+      confirm-type="search" value="{{name}}" bindinput="bindRptInputChange" bind:confirm="tapRptInputConfirm"
+      bind:focus="bindRptInputFoucs" bind:blur="bindRptInputBlur"></input>
+    <view class="btn" bind:tap="submitRptSearch">
+      <image class="icon" src="../../images/Search_red.png" mode="aspectFit"></image>
+      <text class="label">搜索</text>
+    </view>
+  </view>
+</view>

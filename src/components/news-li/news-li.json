@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "news-li-sm": "../../components/news-li-sm/news-li-sm",
+    "news-li-bg": "../../components/news-li-bg/news-li-bg"
+  }
+}

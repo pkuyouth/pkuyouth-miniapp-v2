@@ -1,0 +1,25 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: search-reporter-result.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-search-reporter-result">
+  <block wx:if="{{!initDone}}">
+    <image class="loading" src="../../images/Loading.gif" mode="aspectFit"></image>
+  </block>
+  <block wx:elif="{{!reporters.length}}">
+    <view class="not-found">
+      <image src="../../images/No_reporter.png" mode="aspectFit"></image>
+      <text>查无此人</text>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="line" wx:for="{{reporters}}" wx:key="name">
+      <reporter-li reporter="{{item}}"></reporter-li>
+    </view>
+  </block>
+</view>

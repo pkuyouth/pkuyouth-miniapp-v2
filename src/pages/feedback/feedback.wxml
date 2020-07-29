@@ -1,0 +1,21 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: feedback.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-feedback">
+  <view class="official">
+    <text class="header">微信官方接口反馈</text>
+    <text class="desc">感谢您对我们项目的支持！我们推荐您通过微信官方接口向我们反馈：</text>
+    <button open-type="feedback">反　馈</button>
+  </view>
+  <view class="mail">
+    <text class="header">邮箱反馈</text>
+    <text class="desc">您也可以选择通过邮件进行反馈！</text>
+    <text class="desc">请联系《北大青年》公邮： pkuyouth@163.com</text>
+  </view>
+</view>

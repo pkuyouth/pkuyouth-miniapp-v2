@@ -1,0 +1,61 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: index.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.page-index {
+}
+
+.page-index .slider {
+  width: 750rpx;
+  height: 700rpx;
+  background-color: white;
+}
+.page-index .slider .wx-swiper-dots {
+  /* 内部选择器 ！ */
+  text-align: right;
+  top: 370rpx;
+  right: -300rpx;
+}
+
+.page-index .news-cols {
+  display: block;
+}
+
+.page-index .news-cols .col-card {
+  display: block;
+  width: 750rpx;
+  border-top: 10rpx solid #eeeeee;
+}
+.page-index .news-cols .col-card .cover {
+  display: inline-block;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  box-shadow: 0rpx 4rpx 10rpx #aaaaaa;
+  margin: 30rpx 60rpx 30rpx 40rpx;
+}
+.page-index .news-cols .col-card .text-box {
+  display: inline-block;
+  width: 500rpx;
+  height: 100%;
+  text-align: justify;
+  vertical-align: top;
+}
+.page-index .news-cols .col-card .text-box .title {
+  display: block;
+  margin: 50rpx 0rpx 30rpx 0rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #353535;
+  vertical-align: top;
+}
+.page-index .news-cols .col-card .text-box .desc {
+  display: block;
+  font-size: 26rpx;
+  color: #888888;
+}

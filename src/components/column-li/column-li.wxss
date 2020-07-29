@@ -1,0 +1,65 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: column-li.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-column-li {
+  display: block;
+}
+
+.component-column-li .cover {
+  display: inline-block;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  box-shadow: 0rpx 4rpx 10rpx #aaaaaa;
+  margin: 30rpx 40rpx 25rpx 40rpx;
+}
+
+.component-column-li .text-box {
+  display: inline-block;
+  color: #353535;
+  width: 350rpx;
+  margin: 35rpx 0rpx;
+  vertical-align: top;
+}
+
+.component-column-li .news-count {
+  display: inline-block;
+  margin: 35rpx 0rpx;
+  padding-left: 40rpx;
+  vertical-align: top;
+}
+
+.component-column-li .text-box .title {
+  display: block;
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.component-column-li .text-box .desc {
+  display: block;
+  font-size: 28rpx;
+  color: #888888;
+  line-height: 1.5em;
+}
+
+.component-column-li .news-count .icon {
+  display: inline-block;
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 15rpx;
+  vertical-align: middle;
+}
+.component-column-li .news-count .num {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #888888;
+  letter-spacing: 3rpx;
+  vertical-align: middle;
+}

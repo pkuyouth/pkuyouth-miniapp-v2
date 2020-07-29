@@ -1,0 +1,25 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: setting.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-setting">
+  <view class="group">
+    <text class="header">图文卡片类型</text>
+    <view class="line border">
+      <text class="label">根据网络类型自动切换</text>
+      <switch checked="{{auto_change_card}}" data-option="auto_change_card" color="#993a3a" bind:change="changeSetting">
+      </switch>
+    </view>
+    <view class="line {{auto_change_card ? 'disable' : ''}}">
+      <text class="label">小图模式</text>
+      <switch checked="{{use_small_card}}" data-option="use_small_card" color="#993a3a" bind:change="changeSetting">
+      </switch>
+    </view>
+    <text class="note">注：大图模式较耗资源，容易卡顿，建议使用小图模式</text>
+  </view>
+</view>

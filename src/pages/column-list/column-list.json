@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "column-li": "../../components/column-li/column-li"
+  },
+  "navigationBarTitleText": "栏目分类"
+}

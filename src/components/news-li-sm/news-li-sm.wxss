@@ -1,0 +1,70 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: news-li-sm.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-news-li-sm {
+  display: block;
+  color: #353535;
+  font-size: 28rpx;
+  border-bottom: 2rpx solid #eeeeee;
+}
+.component-news-li-sm image.cover {
+  display: inline-block;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  box-shadow: 0rpx 4rpx 10rpx #aaaaaa;
+  margin: 30rpx 40rpx 25rpx 40rpx;
+}
+.component-news-li-sm .detail {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30rpx;
+  width: 485rpx;
+}
+.component-news-li-sm .detail text.title {
+  display: block;
+  font-size: 28rpx;
+  font-weight: bold;
+  width: 485rpx;
+  min-height: 105rpx;
+  padding-bottom: 5rpx;
+}
+.component-news-li-sm .detail .bottom-box {
+  display: block;
+  height: 60rpx;
+  width: 485rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+}
+.component-news-li-sm .detail .bottom-box .time {
+  display: inline-block;
+  /* width: 185rpx; */
+  width: 350rpx;
+  text-align: left;
+  vertical-align: bottom;
+}
+.component-news-li-sm .detail .bottom-box view {
+  display: inline-block;
+  vertical-align: middle;
+}
+.component-news-li-sm .detail .bottom-box view text.label {
+  display: inline-block;
+  margin-left: 25rpx;
+  vertical-align: middle;
+}
+.component-news-li-sm .detail .bottom-box view image.btn {
+  display: inline-block;
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 10rpx;
+  vertical-align: middle;
+}
+.component-news-li-sm .detail .bottom-box view.recommend image.btn {
+  margin-left: 15rpx;
+}

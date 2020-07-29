@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "reporter-li": "../../components/reporter-li/reporter-li"
+  },
+  "navigationBarTitleText": "搜索结果"
+}

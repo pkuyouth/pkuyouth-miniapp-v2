@@ -1,0 +1,12 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: mask-layer.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view wx:if="{{show}}" class="component-mask-layer">
+  <view class="mask" catch:tap="shield" catch:touchmove="shield"></view>
+</view>

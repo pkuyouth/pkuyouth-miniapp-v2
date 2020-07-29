@@ -1,0 +1,27 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: alert-bar.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-alert-bar {
+  position: fixed;
+  z-index: 30;
+  top: -60px;
+  height: 60px;
+  width: 750rpx;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.component-alert-bar .text {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  width: 650rpx;
+  margin: 25px 50rpx 0rpx 50rpx;
+}

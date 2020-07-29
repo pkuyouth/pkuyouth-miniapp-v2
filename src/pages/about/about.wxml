@@ -1,0 +1,23 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: about.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-about">
+  <view class="info">
+    <image class="brand" src="../../images/Brand.png" mode="aspectFit"></image>
+    <text class="name">{{name}}</text>
+    <text class="version">v {{version}}</text>
+  </view>
+  <view class="acknowledgement">
+    <text>《北大青年》微信小程序开发团队</text>
+  </view>
+  <view class="footer">
+    <text>Copyright @ 2017-2020 PKUYouth</text>
+    <text>All Rights Reserved</text>
+  </view>
+</view>

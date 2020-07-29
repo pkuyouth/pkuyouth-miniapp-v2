@@ -1,0 +1,58 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: floating-button.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-floating-button {
+  position: fixed;
+  bottom: 120rpx;
+  right: 40rpx;
+  width: 124rpx;
+  text-align: center;
+  z-index: 20;
+}
+.component-floating-button .button-option {
+  float: right;
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 30rpx;
+  border-radius: 40rpx;
+  line-height: 80rpx;
+  background: white;
+}
+.component-floating-button .button-option .icon {
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: -4rpx;
+  vertical-align: middle;
+}
+.component-floating-button .button-option .text {
+  position: absolute;
+  right: 120rpx;
+  text-align: right;
+  width: 150rpx;
+  font-size: 27rpx;
+  font-weight: bold;
+  color: white;
+}
+.component-floating-button .button-control {
+  float: right;
+  display: inline-block;
+  width: 124rpx;
+  height: 124rpx;
+  border-radius: 62rpx;
+  line-height: 124rpx;
+  background: #993a3a;
+  box-shadow: 0rpx 0rpx 18rpx rgba(0, 0, 0, 0.5);
+}
+.component-floating-button .button-control .icon {
+  display: inline-block;
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: -10rpx;
+  vertical-align: middle;
+}

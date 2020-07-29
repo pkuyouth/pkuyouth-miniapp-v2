@@ -1,0 +1,14 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: column-list.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-column-list">
+  <view class="column-li" wx:for="{{columns}}" wx:key="id">
+    <column-li column="{{item}}"></column-li>
+  </view>
+</view>

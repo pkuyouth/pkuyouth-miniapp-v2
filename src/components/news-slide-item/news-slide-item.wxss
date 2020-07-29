@@ -1,0 +1,33 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: news-slide-item.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.component-news-slide-item {
+}
+.component-news-slide-item .cover {
+  display: block;
+  width: 750rpx;
+  height: 400rpx;
+}
+.component-news-slide-item .desc {
+  text-align: justify;
+  color: #353535;
+  margin: 50rpx 40rpx;
+}
+.component-news-slide-item .desc .title {
+  display: block;
+  height: 150rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+.component-news-slide-item .desc .time {
+  display: block;
+  font-size: 26rpx;
+  color: #888888;
+}

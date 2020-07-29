@@ -1,0 +1,28 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: index.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-index">
+  <swiper class="slider" autoplay="true" interval="5000" indicator-dots="true" indicator-active-color="#993a3a"
+    circular="true">
+    <swiper-item wx:for="{{sliderArticles}}" wx:key="aid" item-id="{{item.aid}}">
+      <news-slide-item article="{{item}}"></news-slide-item>
+    </swiper-item>
+  </swiper>
+  <view class="news-cols">
+    <block wx:for="{{colCardData}}" wx:key="id" wx:for-item="col">
+      <view class="col-card" data-id="{{col.id}}" bind:tap="tapColCard">
+        <image class="cover" src="{{col.cover}}" mode="aspectFill"></image>
+        <view class="text-box">
+          <text class="title">{{col.title}}</text>
+          <text class="desc">{{col.desc}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

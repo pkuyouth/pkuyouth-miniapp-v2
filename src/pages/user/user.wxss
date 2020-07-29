@@ -1,0 +1,74 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: user.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.page-user {
+  background: white;
+}
+.page-user .userinfo {
+  display: block;
+  height: 420rpx;
+  text-align: center;
+}
+.page-user .menu-lines {
+  text-align: center;
+}
+.page-user .userinfo .avatar {
+  display: block;
+  position: relative;
+  height: 150rpx;
+  width: 150rpx;
+  top: 90rpx;
+  left: 300rpx;
+  overflow: hidden;
+  border-radius: 75rpx;
+  box-shadow: 0rpx 4rpx 10rpx #aaaaaa;
+}
+.page-user .userinfo .nickname {
+  position: relative;
+  top: 140rpx;
+  font-size: 35rpx;
+  color: #353535;
+  letter-spacing: 5rpx;
+}
+.page-user .userinfo .get-info-btn {
+  position: relative;
+  top: 140rpx;
+  font-size: 26rpx;
+  color: #353535;
+  letter-spacing: 3rpx;
+  width: 250rpx;
+  height: auto;
+  background: white;
+  border: 1rpx solid #dddddd;
+}
+.page-user .menu-lines .line {
+  display: inline-block;
+  width: 667rpx;
+  height: 95rpx;
+  line-height: 95rpx;
+  color: #353535;
+  font-size: 30rpx;
+  border-bottom: 2rpx solid #dddddd;
+  text-align: left;
+  vertical-align: middle;
+}
+.page-user .menu-lines .line:last-child {
+  border-bottom: none;
+}
+.page-user .menu-lines .line image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45rpx;
+  height: 45rpx;
+  margin: 0rpx 25rpx 0rpx 15rpx;
+}
+.page-user .menu-lines .line text {
+  display: inline-block;
+  vertical-align: middle;
+}

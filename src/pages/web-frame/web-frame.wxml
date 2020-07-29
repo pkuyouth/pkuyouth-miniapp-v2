@@ -1,0 +1,12 @@
+<!--
+ * Project: PKUYouth MiniApp v2
+ * File: web-frame.wxml
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ -->
+
+<view class="page-web-frame" wx:if="{{url !== ''}}">
+  <web-view src="{{url}}"></web-view>
+</view>

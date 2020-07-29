@@ -1,0 +1,56 @@
+/*
+ * Project: PKUYouth MiniApp v2
+ * File: setting.wxss
+ * Created Date: 2020-07-28
+ * Author: Xinghong Zhong
+ * ---------------------------------------
+ * Copyright (c) 2020 PKUYouth
+ */
+
+.page-setting {
+  padding: 20rpx 0rpx;
+  color: #353535;
+}
+.page-setting .group {
+  display: block;
+  margin: 70rpx 0rpx 30rpx 0rpx;
+}
+.page-setting .group text.header {
+  display: block;
+  margin-left: 40rpx;
+  margin-bottom: 40rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.page-setting .group .line {
+  display: block;
+  padding: 20rpx 0rpx 20rpx 40rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.page-setting .group .line.border {
+  border-top: 1rpx solid #eeeeee;
+}
+.page-setting .group .line text.label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 32rpx;
+  width: 550rpx;
+}
+.page-setting .group .line.disable text.label {
+  color: #888888;
+}
+.page-setting .group .line switch {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80rpx;
+}
+.page-setting .group .line.disable switch {
+  visibility: hidden;
+}
+.page-setting .group text.note {
+  display: block;
+  color: #888888;
+  font-size: 26rpx;
+  line-height: 1.5em;
+  margin: 40rpx 40rpx 0rpx 40rpx;
+}
